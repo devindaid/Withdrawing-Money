@@ -68,7 +68,7 @@ int main() {
 
         while (currency >= .05) {
             currency -= .05;
-            dime += 1;
+            nickel += 1;
         }
 
         while (currency >= .01) {
